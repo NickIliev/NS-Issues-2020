@@ -30,7 +30,7 @@ export class HelloWorldModel extends Observable {
         this.updateMessage();
 
         let btn = args.object as Button;
-        btn.androidElevation = 20;
+        btn.androidElevation = 25;
     }
 
     private updateMessage() {

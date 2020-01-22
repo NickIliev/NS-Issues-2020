@@ -5,7 +5,7 @@
 
     <StackLayout class="p-20">
 
-        <Button text="TAP" tap="{{ onTap }}" class="-primary" androidElevation="15"/>
+        <Button text="TAP" tap="{{ onTap }}" class="ele" androidElevation="15"/>
 
     </StackLayout>
 </Page>
