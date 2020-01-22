@@ -1,4 +1,7 @@
-.ele {
-    android-dynamic-elevation-offset: 5;
-    android-elevation: 10;
+Button {
+	background-color: transparent;
+	margin: 0 0;
+	padding: 0 0;
+	android-elevation: 0;
+	android-dynamic-elevation-offset: 0;
 }
