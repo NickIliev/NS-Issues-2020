@@ -1,0 +1,10 @@
+scripts/*
+*.map
+/node_modules
+*.ts
+!index.d.ts
+tsconfig.json
+*.tgz
+/package
+/platforms/android/**/*
+!platforms/android/uploadservice-release.aar
