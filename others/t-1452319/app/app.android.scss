@@ -1,4 +1,21 @@
 // Import common styles
 @import "app-common";
 
-// Place any CSS rules you want to apply only on Android here
+// This color is NOT applied for the Label (when tab is not active)
+.myTabStripItemtyle {
+    color: red;
+}
+
+// The :active color works
+.myTabStripItemtyle:active {
+    color: green;
+    font-style: italic;
+}
+
+// Uncommenting the below style will "fix" the color issue for both non-active and active states
+
+// .myTabStripStyle {
+//     background-color: #79d2a6;
+//     border-top-color: blue;
+//     border-top-width: 2;
+// }
