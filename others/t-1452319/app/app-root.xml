@@ -1,19 +1,21 @@
 <BottomNavigation>
     <TabStrip class="myTabStripStyle">
         <TabStripItem class="navigation__item" class="myTabStripItemtyle">
-            <!--
-                Note TabStripItem will only accept single Label and/or single Image elements that it
-                will "adopt"; any other layout elements you try to specify will be ignored
-            -->
             <Label text="Home" />
+
+            <!-- If you comment the image for all tab-strip-item then the app will crash on navigation -->
             <Image src="font://&#xf015;" class="fas t-36" />
         </TabStripItem>
         <TabStripItem class="navigation__item" class="myTabStripItemtyle">
             <Label text="Browse" />
+
+            <!-- If you comment the image for all tab-strip-item then the app will crash on navigation -->
             <Image src="font://&#xf1ea;" class="far t-36" />
         </TabStripItem>
         <TabStripItem class="navigation__item" class="myTabStripItemtyle">
             <Label text="Search" />
+
+            <!-- If you comment the image for all tab-strip-item then the app will crash on navigation -->
             <Image src="font://&#xf002;" class="fas t-36" />
         </TabStripItem>
     </TabStrip>
