@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@nativescript/theme": "~2.2.1",
-    "tns-core-modules": "~6.3.0"
+    "tns-core-modules": "^6.3.0-next-2020-01-30-213549-03"
   },
   "devDependencies": {
     "nativescript-dev-webpack": "~1.4.0",
