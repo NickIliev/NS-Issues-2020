@@ -1,0 +1,6 @@
+<Page navigatingTo="navigatingTo">
+
+<GridLayout>
+    <Label text="Sub Page"></Label>
+</GridLayout>
+</Page>

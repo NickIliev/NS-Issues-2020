@@ -1,0 +1,7 @@
+Looking for project in 'D:\git\NS-Issues-2020\others\t-1451671'
+Project directory is 'D:\git\NS-Issues-2020\others\t-1451671'.
+Loading extensions.
+Asserting extension nativescript-cloud is installed.
+Extension nativescript-cloud is installed.
+Asserting extension nativescript-starter-kits is installed.
+Extension nativescript-starter-kits is installed.
