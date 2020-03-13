@@ -1,0 +1,66 @@
+﻿/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. You can learn more about the 
+NativeScript core theme at https://github.com/nativescript/theme
+The imported CSS rules must precede all other types of rules.
+*/
+@import "~@nativescript/theme/css/core.css";
+@import "~@nativescript/theme/css/default.css";
+
+/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme. 
+The imported CSS rules must precede all other types of rules.
+*/
+
+.btn {
+    font-size: 18;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900";
+    font-weight: 900;
+}
+
+.fasap {
+    font-family: "icon-home", "SAP-icons";
+    font-weight: 900;
+}
+
+.TabItemStyle {
+    color: #7133FF;
+}
+
+.TabItemStyle:active {
+    color: red;
+    font-style: italic;
+}
+
+#ControlTabStyle {
+    color: #ffbb33;
+}
+
+
+#ControlTabStyle:active {
+    color: blue;
+}
+
+#TabStripStyle {
+    background-color: #79d2a6;
+    border-top-color: blue;
+    border-top-width: 2;
+}
+  
