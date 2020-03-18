@@ -41,7 +41,7 @@ rootEntry = {
         let tabs: Tabs = rootFrame.getViewById("tabs");
         let tabStripItem1: TabStripItem = tabs.tabStrip.items[0];
         console.log("TtabStripItem1: ", tabStripItem1);
-        tabStripItem1.iconSource = "font://" + String.fromCharCode(0xe070); // NOT Working
+        tabStripItem1.image.src = "font://" + String.fromCharCode(0xe070); // NOT Working
         // tabStripItem1.iconSource = "res://icon"; // WORKIBNG
     });
     stack1.addChild(button);
