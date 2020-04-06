@@ -1,0 +1,7 @@
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+
+    <GridLayout class="p-20">
+        <Image useCache="true" src="~/icon.png"></Image>
+    </GridLayout>
+</Page>
