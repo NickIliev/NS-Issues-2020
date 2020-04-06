@@ -1,0 +1,17 @@
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" 
+      xmlns:is="nativescript-image-swipe" 
+      navigatingTo="navigatingTo">
+
+    <ActionBar title="My App" icon=""></ActionBar>
+
+    <GridLayout rows="auto *">
+        <Label row="0" text="{{ 'Image Swipe Plugin test ' + pageNumber }}"></Label>
+        <is:ImageSwipe row="1" items="{{ items }}" 
+                       imageUrlProperty="imageUrl" 
+                       pageNumber="{{ pageNumber }}" 
+                       pageChanged="{{ pageChanged }}" 
+                       backgroundColor="#000000">
+        </is:ImageSwipe>
+    </GridLayout>
+</Page>
