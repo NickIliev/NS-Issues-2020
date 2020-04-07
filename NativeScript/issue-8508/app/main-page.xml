@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+
+    <GridLayout class="p-20">
+        <ListPicker items="{{ years }}" selectedIndex="0" loaded="onListPickerLoaded" />
+    </GridLayout>
+</Page>
